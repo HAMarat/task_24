@@ -40,3 +40,7 @@ def perform_query():
     )
 
     return jsonify(second_result)
+
+
+if __name__ == "__main__":
+    app.run()
